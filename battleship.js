@@ -21,7 +21,7 @@ var letterConversion = {
 	"J": 9
 }
 
-var letterArray = ["A", "B", "C"];
+var letterArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
 
 // makes the grid columns and rows
 for (i = 0; i < cols; i++) {
