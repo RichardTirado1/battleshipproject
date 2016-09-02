@@ -37,7 +37,7 @@ for (i = 0; i < cols; i++) {
 
 		// THIS IS WHERE YOU WILL ADD CODE FOR PART 1 TO ADD TEXT TO EACH SQUARE
   //var letterArray = [j];
-  square.textContent = letterArray[j] = (1+1);
+  square.textContent = letterArray[j] + (i+1);
 
 
 
