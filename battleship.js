@@ -66,6 +66,13 @@ var gameBoard = [
 				]
 
 function fireTorpedo() {
+	var userInput = $("#myInputBox").val();
+	console.log("userInput is " + userInput);
+	var rowBeforeConversion = userInput.substring(0,1);
+	var  column = userInput.substring(1,2);
+	row = letterConversion[rowBeforeConversion];
 
-	// Your game logic will go here!
+	myArray[gameboard]{
+		myArray = []
+	}
 }
