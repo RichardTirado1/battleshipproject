@@ -71,8 +71,4 @@ function fireTorpedo() {
 	var rowBeforeConversion = userInput.substring(0,1);
 	var  column = userInput.substring(1,2);
 	row = letterConversion[rowBeforeConversion];
-
-	myArray[gameboard]{
-		myArray = []
-	}
 }
