@@ -69,7 +69,7 @@ function fireTorpedo() {
 	var userInput = $("#myInputBox").val();
 	console.log("userInput is " + userInput);
 	var rowBeforeConversion = userInput.substring(0,1);
-	var  column = userInput.substring(1,2);
+	var  column = userInput.substring(1,2) - 1;
 	row = letterConversion[rowBeforeConversion];
   var Userguess = gameBoard[row][column]
   var myDivString = "#s" + row + column;
@@ -77,6 +77,6 @@ function fireTorpedo() {
       $(myDivString).css("background-color", "red");
 	}
 	else {
-		$("#colorChangeText").css("background-color", "grey");
+		$(myDivString).css("background-color", "grey");
 	}
 }
