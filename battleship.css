@@ -37,6 +37,7 @@ p, button, input {
 
 .boardSquare {
   text-align: center;
+  color: #E1E0E0; 
   font-family: sans-serif;
   line-height: 50px;
 }
