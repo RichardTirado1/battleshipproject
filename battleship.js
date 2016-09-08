@@ -80,3 +80,8 @@ function fireTorpedo() {
 		$(myDivString).css("background-color", "grey");
 	}
 }
+
+var hitCount;
+if (hitCount == 17){
+
+}
