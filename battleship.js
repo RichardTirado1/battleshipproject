@@ -2,6 +2,7 @@
 var rows = 10;
 var cols = 10;
 var squareSize = 50;
+var hitCount = 0;
 
 // gets the container element
 var gameBoardContainer = document.getElementById("gameboard");
@@ -34,7 +35,7 @@ for (i = 0; i < cols; i++) {
     // give each div element a unique id based on its row and column, like "s00"
 		square.id = 's' + j + i;
 		square.className = "boardSquare";
-	
+
 
 		// THIS IS WHERE YOU WILL ADD CODE FOR PART 1 TO ADD TEXT TO EACH SQUARE
   //var letterArray = [j];
@@ -80,9 +81,10 @@ function fireTorpedo() {
 	else {
 		$(myDivString).css("background-color", "grey");
 	}
+
 }
 
-var hitCount;
-if (hitCount == 17){
 
+if (hitCount == 17){
+  $("#instructions").text("You sunk all");
 }
