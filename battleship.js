@@ -83,8 +83,12 @@ function fireTorpedo() {
 	}
 
 }
-
+function hitCount {
+for (i = 0; i < 18; i++) {
+   sum += i;
+}
+}
 
 if (hitCount == 17){
-  $("#instructions").text("You sunk all");
+  $("#instructions").text("YOU SUNK ALL MY BATTLESHIPS!");
 }
