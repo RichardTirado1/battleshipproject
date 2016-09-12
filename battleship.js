@@ -83,7 +83,7 @@ function fireTorpedo() {
 	}
 
 }
-function hitCount {
+function hitCount() {
 for (i = 0; i < 18; i++) {
    sum += i;
 }
@@ -91,4 +91,5 @@ for (i = 0; i < 18; i++) {
 
 if (hitCount == 17){
   $("#instructions").text("YOU SUNK ALL MY BATTLESHIPS!");
+  
 }
