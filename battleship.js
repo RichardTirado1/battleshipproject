@@ -77,19 +77,17 @@ function fireTorpedo() {
   var myDivString = "#s" + row + column;
   if(Userguess == 1) {
       $(myDivString).css("background-color", "red");
+			hitCount++;
+			console.log(hitCount);
 	}
 	else {
 		$(myDivString).css("background-color", "grey");
 	}
 
 }
-function hitCount() {
-for (i = 0; i < 18; i++) {
-   sum += i;
-}
-}
 
 if (hitCount == 17){
+	CONSOLE.LOG("WIN");
   $("#instructions").text("YOU SUNK ALL MY BATTLESHIPS!");
-  
+
 }
