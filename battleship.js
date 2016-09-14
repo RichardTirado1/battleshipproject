@@ -83,11 +83,7 @@ function fireTorpedo() {
 	else {
 		$(myDivString).css("background-color", "grey");
 	}
-
-}
-
-if (hitCount == 17){
-	CONSOLE.LOG("WIN");
+if (hitCount == 4){
   $("#instructions").text("YOU SUNK ALL MY BATTLESHIPS!");
-
+   }
 }
